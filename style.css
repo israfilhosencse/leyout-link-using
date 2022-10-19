@@ -1,0 +1,133 @@
+body{
+	padding: 0;
+	margin: 0;
+	width: 1200px;
+	margin: 0px auto;
+
+}
+
+.header{
+	height: 60px;
+	width: 100%;
+	background-color: gray;
+	text-align: center;
+	line-height: 60px;
+	font-size: 60px;
+	color: #fff;
+	margin-bottom: 10px;
+	text-shadow: 2px 3px 5px red,2px 3px 5px green;
+}
+.navber{
+	height: 40px;
+	width: 100%;
+	background-color: yellow;
+	text-align: center;
+	line-height: 40px;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.navber a{
+	font-size: 30px;
+	color: black;
+	text-decoration: none;
+
+}
+.navber a:hover{
+	color:red;
+	transition: .5s;
+}
+.container{
+	margin-top: 10px;
+	
+}
+.container .left-bar{
+	height: 600px;
+	width: 280px;
+	background-color: green;
+	float: left;
+	margin-right: 10px;
+
+}
+.container .middil-bar{
+	height: 600px;
+	width: 700px;
+	background-color: blue;
+	float: left;
+}
+
+.container .right-bar{
+	height: 600px;
+	width: 200px;
+	background-color: yellow;
+	float: right;
+}
+.footer{
+	height: 40px;
+	width: 100%;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+	float: left;
+	margin-top: 10px;
+
+}
+*/
+.middil-bar{
+	
+	list-style: none;
+
+
+
+}
+.middil-bar ul{
+	padding: 10px;
+	text-decoration: none;
+	border-radius: 1px solid red;
+	list-style: none;
+}
+.middil-bar ul li{
+	
+	padding: 10px;
+	text-decoration: none;
+	margin-top: 10px; 
+	background-color: grey;
+	height: 50px;
+	width: 300px;
+	transition: 2s;
+	text-align: center;
+
+}
+
+
+
+ .middil-bar ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+
+
+
+
+
+}
+.middil-bar ul li:hover{
+	background-color: red;
+	width: 300px;
+	transition: 2s;
+	text-align: center;
+	color: white;
+	border-top-right-radius: 100px;
+	border-bottom-left-radius: 100px;
+}
+..middil-bar ul li a:hover{
+	color: green;
+	font-size: 60px;
+}
+.middil-bar ul li:hover{
+	box-shadow: 8px 10px 12px #fff,
+	8px 10px 12px yellow,
+	8px 10px 12px green;
+}
